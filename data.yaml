@@ -1,0 +1,17 @@
+names:
+- '0'
+- Dog
+- dog
+- dogsrotation
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: all-dogs
+  url: https://universe.roboflow.com/daniil-yarmov/all-dogs/dataset/1
+  version: 1
+  workspace: daniil-yarmov
+test: C:\Users\gamin\PycharmProjects\Yolodog\test\images
+train: C:\Users\gamin\PycharmProjects\Yolodog\train\images
+val: C:\Users\gamin\PycharmProjects\Yolodog\valid\images
+
+

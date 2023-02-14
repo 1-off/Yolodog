@@ -14,7 +14,7 @@ dataset = project.version(1).download("yolov8")
 
 
 # Train the model
-# yolo task=detect mode=train model=yolov8n.pt data=C:\Users\user\PycharmProjects\Yolodog\data.yaml epochs=3 imgsz=416  from ultralytics import YOLO
+# yolo task=detect mode=train model=yolov8n.pt data=C:\Users\gamin\PycharmProjects\Yolodog\data.yaml epochs=3 imgsz=416  from ultralytics import YOLO
 
 # Test model
 model = YOLO('runs/detect/train/weights/best.pt')
@@ -22,6 +22,6 @@ model.predict(
    source='dog.jpg',
    conf=0.6
 )
-# yolo task=detect mode=predict model="C:\Users\user\PycharmProjects\Yolodog\runs\detect\train\weights\best.pt" source="dog.jpg"
+# yolo task=detect mode=predict model="C:\Users\gamin\PycharmProjects\Yolodog\runs\detect\train\weights\best.pt" source="dog.jpg"
 
 

@@ -8,9 +8,9 @@ apik = config.get('roboflow', 'key')
 
 # Download the model
 
-# rf = Roboflow(api_key=apik)
-# project = rf.workspace("daniil-yarmov").project("all-dogs")
-# dataset = project.version(1).download("yolov8")
+rf = Roboflow(api_key=apik)
+project = rf.workspace("daniil-yarmov").project("all-dogs")
+dataset = project.version(1).download("yolov8")
 
 
 # Train the model

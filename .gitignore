@@ -19,7 +19,7 @@ __pycache__/
 *.png
 *.jpg
 # Distribution / packaging
-ssssssssssssssssssssssssssssssssss.Python
+.Python
 env/
 build/
 develop-egg-info/

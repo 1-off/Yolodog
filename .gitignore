@@ -14,9 +14,12 @@ __pycache__/
 
 # C extensions
 *.so
-
+*.jpeg
+*.gif
+*.png
+*.jpg
 # Distribution / packaging
-.Python
+ssssssssssssssssssssssssssssssssss.Python
 env/
 build/
 develop-egg-info/
